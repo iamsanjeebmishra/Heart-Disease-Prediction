@@ -39,9 +39,11 @@ Machine Learning algorithms used:
 Accuracy achieved: 95% (Random Forest)
 
 ⚙️ Installation & Setup
+
 1️⃣ Clone the repository
 git clone https://github.com/iamsanjeebmishra/Heart-Disease-Prediction.git
 cd Heart-Disease-Prediction
+
 2️⃣ Install dependencies
 pip install -r requirements.txt
 (If requirements.txt not present, install manually:)
@@ -57,6 +59,7 @@ View prediction result (High Risk / Low Risk)
 Report gets automatically sent via email
 
 📧 Email Configuration
+
 ✅ STEP 1: Turn ON 2-Step Verification
 
 Go to 👉 https://myaccount.google.com/security
