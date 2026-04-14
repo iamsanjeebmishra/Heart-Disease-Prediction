@@ -53,9 +53,13 @@ pip install streamlit pandas numpy scikit-learn
 streamlit run app.py
 
 🖥️ Usage
+
 Enter patient medical details in the dashboard
+
 Click Predict & Forward Report
+
 View prediction result (High Risk / Low Risk)
+
 Report gets automatically sent via email
 
 📧 Email Configuration
@@ -70,18 +74,16 @@ Turn it ON
 ✅ STEP 2: Generate App Password
 
 Go to 👉 https://myaccount.google.com/apppasswords
-Select:
-App → Mail
-Device → Other → type: Streamlit App
 Click Generate
 You’ll get a 16-digit password
-
 👉 Example:
+abcdefghijklmnop
 
-abcd efgh ijkl mnop
 Update sender email credentials in app.py:
+
 SENDER_EMAIL = "your_email@gmail.com"
 SENDER_PASS = "your_app_password"
+
 Use Google App Password, not your normal password.
 
 📊 Input Features
